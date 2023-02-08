@@ -1,0 +1,12 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo app with react and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd node-express-basic && npm run dev\" \"cd todo-app && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
